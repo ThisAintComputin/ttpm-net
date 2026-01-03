@@ -12,5 +12,5 @@ After you have installed all of the dependencies, you can put your training data
 
 # Pretrained Files
 In case you don't want to train a brand new model, we have already packaged a pre-trained save file.
-To use it, simply delete any exist model.pth file, and rename wikipedia20k.pth to model.pth.
+To use it, simply delete any existing model.pth file, and rename wikipedia20k.pth to model.pth.
 This save file is trained on 10k epochs.
