@@ -10,7 +10,6 @@ numpy
 ```
 After you have installed all of the dependencies, you can put your training data in training.txt, run main.py, and begin training.
 
-# Pretrained Files
-In case you don't want to train a brand new model, we have already packaged a pre-trained save file.
-To use it, simply delete any existing model.pth file, and rename wikipedia20k.pth to model.pth.
-This save file is trained on 10k epochs.
+# Model Specifications
+The base model is a 256x512 neural network. It learns very fast but struggles with complicated text, and excels at reproducing very noticable patterns in text.
+It uses the GPT-4 Tokenizer as it is very fast, even on low end devices. There isn't much else to say.
